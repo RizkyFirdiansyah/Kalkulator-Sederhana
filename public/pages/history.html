@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="navbar">
+                <img src="../img/hamburger.svg" alt="" onclick="openSidebar()" id="openNav" />
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/"><img src="../img/ig.svg" alt="" /></a>
+                    <a href="https://www.youtube.com/"> <img src="../img/yt.svg" alt="" /></a>
+                    <a href="https://twitter.com/"> <img src="../img/twitter.svg" alt="" /></a>
+                </div>
+            </div>
+            <div class="nav-menu" id="mySidebar">
+                <div>
+                    <img src="../img/close.svg" alt="" onclick="closeSidebar()" />
+                    <a href="../index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 256 256">
+                            <path fill="currentColor"
+                                d="M80 120h96a8 8 0 0 0 8-8V64a8 8 0 0 0-8-8H80a8 8 0 0 0-8 8v48a8 8 0 0 0 8 8m8-48h80v32H88Zm112-48H56a16 16 0 0 0-16 16v176a16 16 0 0 0 16 16h144a16 16 0 0 0 16-16V40a16 16 0 0 0-16-16m0 192H56V40h144Zm-100-68a12 12 0 1 1-12-12a12 12 0 0 1 12 12m40 0a12 12 0 1 1-12-12a12 12 0 0 1 12 12m40 0a12 12 0 1 1-12-12a12 12 0 0 1 12 12m-80 40a12 12 0 1 1-12-12a12 12 0 0 1 12 12m40 0a12 12 0 1 1-12-12a12 12 0 0 1 12 12m40 0a12 12 0 1 1-12-12a12 12 0 0 1 12 12" />
+                        </svg>
+                        Kalkulator</a>
+                    <a href="history.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30px" height="30px" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M11.962 20q-3.047 0-5.311-1.99Q4.387 16.022 4.03 13h1.011q.408 2.58 2.351 4.29Q9.337 19 11.962 19q2.925 0 4.962-2.037T18.962 12q0-2.925-2.038-4.963T11.962 5q-1.552 0-2.918.656q-1.365.656-2.41 1.806h2.481v1H4.962V4.308h1v2.388q1.16-1.273 2.718-1.984Q10.238 4 11.962 4q1.663 0 3.118.626q1.455.626 2.542 1.713t1.714 2.543q.626 1.455.626 3.118q0 1.663-.626 3.118q-.626 1.455-1.714 2.543q-1.087 1.087-2.542 1.713q-1.455.626-3.118.626m3.203-4.146l-3.646-3.646V7h1v4.792l3.354 3.354z" />
+                        </svg>
+                        History</a>
+                    <a href="dashboard.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 20 20">
+                            <path fill="currentColor"
+                                d="M10 0c5.523 0 10 4.477 10 10s-4.477 10-10 10S0 15.523 0 10S4.477 0 10 0m.667 1.359v1.035a.667.667 0 0 1-1.334 0V1.359A8.614 8.614 0 0 0 5.637 2.51l.522.584a.667.667 0 0 1-.995.888l-.63-.707a8.714 8.714 0 0 0-1.776 1.962l.843.506a.667.667 0 0 1-.686 1.143l-.803-.481a8.607 8.607 0 0 0-.709 2.491h.907a.667.667 0 1 1 0 1.334l-.973-.001v.031a8.627 8.627 0 0 0 .742 3.263l.836-.559a.667.667 0 0 1 .741 1.109l-.939.627A8.66 8.66 0 0 0 10 18.667a8.662 8.662 0 0 0 7.447-4.23l-1.132-.757a.667.667 0 0 1 .74-1.109l.989.661a8.633 8.633 0 0 0 .62-3.003H17.58a.667.667 0 0 1 0-1.333h1.017a8.608 8.608 0 0 0-.57-2.168l-.95.492a.667.667 0 1 1-.612-1.184l.965-.5a8.71 8.71 0 0 0-1.839-2.158l-.602.789a.667.667 0 1 1-1.06-.81l.58-.76a8.615 8.615 0 0 0-3.842-1.238m3.248 5.46a.667.667 0 0 1-.104.937l-2.04 1.631l.007.12c0 .692-.529 1.262-1.205 1.326l-.129.006a1.333 1.333 0 1 1 .558-2.544l1.976-1.58a.667.667 0 0 1 .937.104" />
+                        </svg>
+                        Dashboard</a>
+                </div>
+            </div>
+        </nav>
+        <div class="content">
+            <h1>History</h1>
+            <div id="history">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Angka Pertama</th>
+                            <th>Operasi</th>
+                            <th>Angka Kedua</th>
+                            <th>Hasil</th>
+                            <th>Tanggal, Waktu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- isi data history -->
+                    </tbody>
+                </table>
+                <button id="downloadButton" onclick="downloadHistory()">Download Data History</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            fetch('/history')
+                .then(response => response.json())
+                .then(data => {
+                    const tableBody = document.querySelector('table tbody');
+
+                    data.forEach(history => {
+                        const tableRow = document.createElement('tr');
+
+                        const num1Cell = document.createElement('td');
+                        num1Cell.textContent = history.num1;
+                        tableRow.appendChild(num1Cell);
+
+                        const operationCell = document.createElement('td');
+                        operationCell.textContent = history.operation;
+                        tableRow.appendChild(operationCell);
+
+                        const num2Cell = document.createElement('td');
+                        num2Cell.textContent = history.num2;
+                        tableRow.appendChild(num2Cell);
+
+                        const resultCell = document.createElement('td');
+                        resultCell.textContent = history.result;
+                        tableRow.appendChild(resultCell);
+
+                        const dateTimeCell = document.createElement('td');
+                        dateTimeCell.textContent = history.dateTime;
+                        tableRow.appendChild(dateTimeCell);
+
+                        tableBody.appendChild(tableRow);
+                    });
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+        // Fungsi untuk mengunduh data dalam format teks
+        function downloadHistory() {
+            fetch('/history')
+                .then(response => response.json())
+                .then(data => {
+                    // Membuat teks dari data history
+                    const textData = data.map(history => `${history.num1} ${history.operation} ${history.num2} = ${history.result} (${history.dateTime})`).join('\n');
+
+                    // Membuat objek blob
+                    const blob = new Blob([textData], { type: 'text/plain' });
+
+                    // Membuat URL untuk blob
+                    const url = window.URL.createObjectURL(blob);
+
+                    // Membuat elemen a untuk menautkan URL
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'history.txt';
+
+                    // Menambahkan elemen a ke dalam dokumen
+                    document.body.appendChild(a);
+
+                    // Klik elemen a secara otomatis untuk memicu unduhan
+                    a.click();
+
+                    // Menghapus elemen a setelah selesai
+                    document.body.removeChild(a);
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
